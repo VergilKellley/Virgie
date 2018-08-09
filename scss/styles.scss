@@ -1,0 +1,58 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+.container{
+	height:100vh;
+	background-color:purple;
+}
+// navagation
+
+nav button{
+	position:relative;
+	margin-left:2rem;
+	margin-bottom:1rem;
+}
+
+ul li a {
+    color: #fff !important;
+    font-size: 1rem;
+    padding:2rem;
+}
+
+ ul li a:hover{
+    	color:lightblue !important;
+    	text-decoration:none;
+    }
+
+#top-photo{
+	position:relative;
+	top:10rem;
+
+	img {
+		float:left;
+		shape-outside:circle();
+		width: 15rem;
+		height:15rem;
+		border-radius:100%;
+		margin-right:4rem;
+		margin-left:2rem;
+	}
+
+	p{
+		
+		margin-left:8em;
+		padding-left:20px;
+		width:19rem;
+		color:#fff;
+	}
+
+
+}
+
+footer{
+	position:relative;
+	top:600px;
+	text-align:center;
+	background-color:purple;
+}
