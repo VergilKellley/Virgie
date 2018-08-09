@@ -1,0 +1,58 @@
+body {
+  font-family: arial;
+  background: #f8f9fb; }
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+fieldset, img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+.container {
+  height: 100vh;
+  background-color: purple; }
+
+nav button {
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom: 1rem; }
+
+ul li a {
+  color: #fff !important;
+  font-size: 1rem;
+  padding: 2rem; }
+
+ul li a:hover {
+  color: lightblue !important;
+  text-decoration: none; }
+
+#top-photo {
+  position: relative;
+  top: 10rem; }
+  #top-photo img {
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    margin-right: 4rem;
+    margin-left: 2rem; }
+  #top-photo p {
+    margin-left: 8em;
+    padding-left: 20px;
+    width: 19rem;
+    color: #fff; }
+
+footer {
+  position: relative;
+  top: 600px;
+  text-align: center;
+  background-color: purple; }
