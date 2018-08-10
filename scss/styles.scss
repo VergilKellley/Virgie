@@ -2,12 +2,16 @@
 @import "variables";
 @import "mixins";
 
-.container{
+/*.container{
 	height:100vh;
 	background-color:purple;
-}
+}*/
 // navagation
 
+nav{
+	width:87.6%;
+	margin: 0 auto;
+}
 nav button{
 	position:relative;
 	margin-left:2rem;
@@ -25,25 +29,31 @@ ul li a {
     	text-decoration:none;
     }
 
+    #nghd{
+    	position:relative;
+    	top:-50%;
+    	left:50%;
+    	font-size:3em;
+    }
+
 #top-photo{
 	position:relative;
 	top:10rem;
 
 	img {
 		float:left;
-		shape-outside:circle();
-		width: 15rem;
-		height:15rem;
+		shape-outside:ellipse(50% 50%);
+		width: 25%;
+		height:65%;
 		border-radius:100%;
-		margin-right:4rem;
+		margin-right:2rem;
 		margin-left:2rem;
 	}
 
 	p{
 		
-		margin-left:8em;
-		padding-left:20px;
-		width:19rem;
+		//margin-left:4em;
+		width:23rem;
 		color:#fff;
 	}
 
@@ -52,7 +62,7 @@ ul li a {
 
 footer{
 	position:relative;
-	top:600px;
+	//top:600px;
 	text-align:center;
 	background-color:purple;
 }
